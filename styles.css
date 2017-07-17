@@ -1,0 +1,52 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    font-size: 13px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+body {
+    padding: 34px 55px;
+}
+
+h1 {
+    font-size: 3em;
+    display: block;
+    margin-bottom: 0.618em;
+}
+
+.form-row {
+    display: block;
+    margin-bottom: 0.618em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.382em;
+}
+
+input,textarea {
+    display: block;
+    padding: 8px 13px;
+}
+
+form#personalDetails {
+    width: 50%;
+    display: block;
+}
+
+
+textarea {
+    resize: none;
+}
+
+form#personalDetails, .elements {
+    padding: 13px 21px;
+    padding-left: 0;
+}
+
+p {
+    margin-bottom: 0.618em;
+}

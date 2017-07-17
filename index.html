@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en-za">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Two Way Data Binding</title>
+
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+        <style type="text/css">
+            
+        </style>
+    </head>
+
+    <body>
+        <h1>Two Way Data Binding</h1>
+        <form id="personalDetails" onsubmit="return false;">
+            <div class="form-row">
+                <label>Name</label>
+                <input type="text" my-model="name">
+            </div>
+            <div class="form-row">
+                <label>Surname</label>
+                <input type="text" my-model="surname">
+            </div>
+            <div class="form-row">
+                <label>Bio</label>
+                <textarea cols="40" rows="10" my-model="bio"></textarea>
+            </div>
+        </form>
+
+        <div class="elements">
+            <p my-model="name"></p>
+            <p my-model="surname"></p>
+            <p my-model="bio"></p>
+        </div>
+        
+        <script type="text/javascript" src="binding.js"></script>
+    </body>
+</html>
